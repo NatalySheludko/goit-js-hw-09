@@ -1,0 +1,16 @@
+.container-form {
+  width: 408px;
+  background-color: antiquewhite;
+}
+
+.feedback-form {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
