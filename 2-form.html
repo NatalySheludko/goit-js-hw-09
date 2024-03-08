@@ -6,34 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-47b07e90.css">
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-126f8f21.css">
   </head>
   <body>
-
     <section>
       <a href="./index.html">Go to home</a>
     </section>
 
     <section class="container-form">
-
       <form class="feedback-form" autocomplete="off">
-        <label class="feedback-label">
-          Email
+        <label
+          >Email
           <input type="email" name="email" autofocus />
         </label>
 
-        <label  class="feedback-label">
-          Message
+        <label
+          >Message
           <textarea name="message" rows="8"></textarea>
         </label>
-				
+
         <button type="submit">Submit</button>
       </form>
-
     </section>
 
     
-
   </body>
 </html>
