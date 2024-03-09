@@ -23,7 +23,10 @@ function formSubmitHandler(event) {
   const emailData = feedbackInput.value.trim();
   const txtData = feedbackMsg.value.trim();
 
-  if (emailData === "" || txtData === "") return;
+  if (emailData === "" || txtData === "") {
+    alert("Please fill in both fields before submitting.");
+    return;
+  }
   console.log({ emailData, txtData });
 
   localStorage.removeItem(STORAGE_KEY);
